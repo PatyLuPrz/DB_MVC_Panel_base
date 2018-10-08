@@ -32,7 +32,7 @@ public class ControllerDetalleContacto {
      * viewDetalleContacto.
      */
     public final void initView(){
-        viewDetalleContacto.jl_nombre.setText(modelDetalleContacto.getNombre());
+        viewDetalleContacto.jl_titulo.setText(modelDetalleContacto.getNombre());
         viewDetalleContacto.jl_email.setText(modelDetalleContacto.getEmail());
     }
 }
